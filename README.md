@@ -15,4 +15,4 @@ A simple android app takes input from user regarding what pills he wants to the 
 
 There is a method for taking input from firebase and getting time and pill information from it. Another method is for rotating the relevant motor to dispense pills.
 
-The time and the pill information are displayed on the lcd. If the user fails to collect the pills or there are no pills remaining in the dispenser, an e-mail will be sent to the user.
+The time and the pill information are displayed on the lcd. An alarm will ring when the pills are dispensed. If the user fails to collect the pills or there are no pills remaining in the dispenser, an e-mail will be sent to the user.

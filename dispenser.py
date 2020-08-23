@@ -46,13 +46,15 @@ def email_notify(text):
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login("bjvaghela459@gmail.com","#bj9791%")
-    server.sendmail("bjvaghela459@gmail.com", "shreyshah97@gmail.com",text)
+    # add email adress and password of the account from which the email is to be sent
+    server.login("add email address here","add password here")
+    # add email address' to which email is to be sent
+    server.sendmail("add email address here","add email address here",text)
     server.close()
 #end
     
 #converts object to string(firebase)
-def getTime(text):
+def getTime(text): 
     number,pType,pTime=text.split(",")
     number=number.split(":")[1].strip()
     pType=pType.split(":")[1].strip()
